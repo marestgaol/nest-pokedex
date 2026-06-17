@@ -169,3 +169,8 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 ## Stack usado
 * MongoDB
 * Nest
+
+## Para crear una semilla
+    - `nest g res seed --no-spec`
+    - En terminal:
+        - 'npm i axios'
