@@ -160,6 +160,11 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
     export class AppModule { }
     ```
 
+## Reconstruir la base de datos con la semilla
+````
+localhost:3000/api/v2/seed
+```
+
 ## Seguimos proyecto
     - Rellenar el archivo de entidad
     - Completar en module
