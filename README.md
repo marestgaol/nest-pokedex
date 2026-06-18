@@ -161,21 +161,6 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
     ```
 
 ## Reconstruir la base de datos con la semilla
-````
-localhost:3000/api/v2/seed
-```
-
-## Seguimos proyecto
-    - Rellenar el archivo de entidad
-    - Completar en module
-
-</br></br></br>
-
-## Stack usado
-* MongoDB
-* Nest
-
-## Para crear una semilla
-    - `nest g res seed --no-spec`
-    - En terminal:
-        - 'npm i axios'
+    ```
+    localhost:3000/api/v2/seed
+    ```
