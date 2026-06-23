@@ -160,6 +160,15 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
     export class AppModule { }
     ```
 
+## Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+## Llenar las variables de entotno definidas en el ```.env```
+
+## Ejecutar la aplicación en dev:
+```
+npm run start:dev
+```
+
 ## Reconstruir la base de datos con la semilla
     ```
     localhost:3000/api/v2/seed

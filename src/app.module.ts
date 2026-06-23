@@ -28,7 +28,9 @@ Aquí me deja de funcionar la aplicación cuando hago un llamado al servidor Err
             rootPath: join(__dirname, '..', 'public'),
             renderPath: '/',
         }),
-        MongooseModule.forRoot(process.env.MONGODB!),
+        MongooseModule.forRoot(process.env.MONGODB!, {
+            dbName: 'pokemondb'
+        }),
         PokemonModule,
         CommonModule,
         SeedModule],
